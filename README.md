@@ -1,5 +1,5 @@
 # Vobile MAX
 
-- [ ] next-i18n
+- [x] next-i18n
 - [ ] better-auth
 - [ ] languine
