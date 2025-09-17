@@ -21,6 +21,24 @@
     }
   },
   "signUpPage": {
-    "title": "註冊"
+    "title": "註冊",
+    "errors": {
+      "invalidEmail": "無效的電子郵件地址",
+      "passwordTooShort": "密碼必須至少為6個字符",
+      "usernameTooShort": "用戶名必須至少為2個字符",
+      "usernameTooLong": "用戶名最多可為50個字符",
+      "passwordsDontMatch": "密碼不匹配"
+    },
+    "card": {
+      "title": "創建帳戶",
+      "description": "請在下方輸入您的信息以創建帳戶",
+      "username": "用戶名",
+      "email": "電子郵件",
+      "password": "密碼",
+      "confirmPassword": "確認密碼",
+      "signUp": "註冊",
+      "alreadyHaveAccount": "已經有帳戶了？",
+      "signIn": "登錄"
+    }
   }
 }

@@ -12,4 +12,17 @@ files:
     signInPage.card.signIn: f2fdea440d768b85591e936a803c3631
     signInPage.card.signUp: d67850bd126f070221dcfd5fa6317043
     signInPage.card.dontHaveAccount: a5f61298da21626d0f490ebd06ecd811
-    signUpPage.title: d67850bd126f070221dcfd5fa6317043
+    signUpPage.errors.invalidEmail: 59e4904d4366fab35a8282f418e699de
+    signUpPage.errors.passwordTooShort: 82c7fd48bcdfa47995cb13a91c84c52f
+    signUpPage.errors.usernameTooShort: 59dbf68412ab7ebaaed5ed89bedee9b0
+    signUpPage.errors.usernameTooLong: cb92f61dfe3d8ec23056fff56afd7bb8
+    signUpPage.errors.passwordsDontMatch: e2ba330f230333cf40ad533366d9f1ce
+    signUpPage.card.title: 2fdfd506efea08144c0794c32ca8250a
+    signUpPage.card.description: 3e818544e1527f3b77ecfb640980baf5
+    signUpPage.card.username: f6039d44b29456b20f8f373155ae4973
+    signUpPage.card.email: ce8ae9da5b7cd6c3df2929543a9af92d
+    signUpPage.card.password: dc647eb65e6711e155375218212b3964
+    signUpPage.card.confirmPassword: 887f7db126221fe60d18c895d41dc8f6
+    signUpPage.card.signUp: d67850bd126f070221dcfd5fa6317043
+    signUpPage.card.alreadyHaveAccount: 21bdc5689c12595ae14298354d5550d5
+    signUpPage.card.signIn: f2fdea440d768b85591e936a803c3631
