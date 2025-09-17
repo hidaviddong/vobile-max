@@ -3,5 +3,11 @@
     "title": "讓創意更具價值",
     "description": "推動創意經濟的未來",
     "test": "這是一條測試消息"
+  },
+  "signInPage": {
+    "title": "登入"
+  },
+  "signUpPage": {
+    "title": "註冊"
   }
 }

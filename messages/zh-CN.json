@@ -3,5 +3,11 @@
     "title": "让创意更有价值",
     "description": "推动创意经济的未来",
     "test": "这是一个测试消息"
+  },
+  "signInPage": {
+    "title": "登录"
+  },
+  "signUpPage": {
+    "title": "注册"
   }
 }
