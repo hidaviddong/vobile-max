@@ -40,5 +40,8 @@
       "alreadyHaveAccount": "已經有帳戶了？",
       "signIn": "登錄"
     }
+  },
+  "Header": {
+    "signOut": "登出"
   }
 }
