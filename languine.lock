@@ -2,6 +2,10 @@ version: 1
 files:
   messages/en.json:
     Header.signOut: 375e08625a2c38089b9e3a60f0e68325
+    selector.label: 4994a8ffeba4ac3140beb89e8d41f174
+    selector.en: 78463a384a5aa4fad5fa73e2f506ecfc
+    selector.zh-CN: d688a3a4d07d16ac647e799e472bff2e
+    selector.zh-HK: 407fdbe570e13c9b14edec33bc8ded02
     HomePage.title: bc100242d513fdc9cd5d5652a50965eb
     HomePage.description: 633e7916eec10c24fda54e8a596e18d4
     signInPage.errors.invalidEmail: 59e4904d4366fab35a8282f418e699de
