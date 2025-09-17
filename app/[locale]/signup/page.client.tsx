@@ -88,7 +88,7 @@ export default function SignUpPageClient() {
                       <FormControl>
                         <Input
                           id="username"
-                          placeholder="Username"
+                          placeholder={t("card.username")}
                           {...field}
                         />
                       </FormControl>
