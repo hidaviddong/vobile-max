@@ -1,4 +1,4 @@
 # Vobile MAX
 
-- next-i18n
-- better-auth
+- [ ] next-i18n
+- [ ] better-auth
