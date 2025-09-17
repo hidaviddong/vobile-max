@@ -19,6 +19,23 @@
     }
   },
   "signUpPage": {
-    "title": "Sign Up"
+    "errors": {
+      "invalidEmail": "Invalid email address",
+      "passwordTooShort": "Password must be at least 6 characters",
+      "usernameTooShort": "Username must be at least 2 characters",
+      "usernameTooLong": "Username must be at most 50 characters",
+      "passwordsDontMatch": "Passwords don't match"
+    },
+    "card": {
+      "title": "Create an account",
+      "description": "Enter your information below to create your account",
+      "username": "Username",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "signUp": "Sign Up",
+      "alreadyHaveAccount": "Already have an account?",
+      "signIn": "Sign In"
+    }
   }
 }

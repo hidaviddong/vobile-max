@@ -1,4 +1,3 @@
-import { useTranslations } from "next-intl";
 import SignInPageClient from "./page.client";
 
 export default function Page() {

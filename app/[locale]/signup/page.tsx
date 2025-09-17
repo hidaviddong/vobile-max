@@ -1,12 +1,13 @@
-import { getTranslations } from "next-intl/server";
+import SignUpPageClient from "./page.client";
 
 export default async function Page() {
-  const t = await getTranslations("signUpPage");
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <p className="text-3xl font-bold">{t("title")}</p>
-      </main>
+    <div className="flex min-h-svh w-full items-center justify-center p-6 md:p-10">
+      <div className="w-full max-w-sm">
+        <div className="flex flex-col gap-6">
+          <SignUpPageClient />
+        </div>
+      </div>
     </div>
   );
 }
