@@ -8,7 +8,6 @@ export default async function Home() {
         <div className="w-full text-center space-y-4">
           <p className="text-3xl font-bold">{t("title")}</p>
           <p className="text-md text-gray-500">{t("description")}</p>
-          <p className="text-md text-gray-500">{t("test")}</p>
         </div>
       </main>
     </div>
