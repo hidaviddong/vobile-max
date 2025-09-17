@@ -5,7 +5,20 @@
     "test": "這是一條測試消息"
   },
   "signInPage": {
-    "title": "登入"
+    "title": "登入",
+    "errors": {
+      "invalidEmail": "無效的電子郵件地址",
+      "passwordTooShort": "密碼必須至少包含6個字符"
+    },
+    "card": {
+      "title": "登錄到您的帳戶",
+      "description": "請在下面輸入您的電子郵件以登錄到您的帳戶",
+      "email": "電子郵件",
+      "password": "密碼",
+      "signIn": "登錄",
+      "signUp": "註冊",
+      "dontHaveAccount": "還沒有帳戶？"
+    }
   },
   "signUpPage": {
     "title": "註冊"

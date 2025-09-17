@@ -5,7 +5,20 @@
     "test": "这是一个测试消息"
   },
   "signInPage": {
-    "title": "登录"
+    "title": "登录",
+    "errors": {
+      "invalidEmail": "无效的电子邮件地址",
+      "passwordTooShort": "密码必须至少为6个字符"
+    },
+    "card": {
+      "title": "登录到您的账户",
+      "description": "在下面输入您的电子邮件以登录到您的账户",
+      "email": "电子邮件",
+      "password": "密码",
+      "signIn": "登录",
+      "signUp": "注册",
+      "dontHaveAccount": "还没有账户？"
+    }
   },
   "signUpPage": {
     "title": "注册"

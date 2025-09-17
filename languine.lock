@@ -3,5 +3,13 @@ files:
   messages/en.json:
     HomePage.title: bc100242d513fdc9cd5d5652a50965eb
     HomePage.description: 633e7916eec10c24fda54e8a596e18d4
-    signInPage.title: f2fdea440d768b85591e936a803c3631
+    signInPage.errors.invalidEmail: 59e4904d4366fab35a8282f418e699de
+    signInPage.errors.passwordTooShort: 82c7fd48bcdfa47995cb13a91c84c52f
+    signInPage.card.title: 15cb3b43610751d8b2e241abfba63e10
+    signInPage.card.description: dffc023a39b961ea424d84bfcaa35ecf
+    signInPage.card.email: ce8ae9da5b7cd6c3df2929543a9af92d
+    signInPage.card.password: dc647eb65e6711e155375218212b3964
+    signInPage.card.signIn: f2fdea440d768b85591e936a803c3631
+    signInPage.card.signUp: d67850bd126f070221dcfd5fa6317043
+    signInPage.card.dontHaveAccount: a5f61298da21626d0f490ebd06ecd811
     signUpPage.title: d67850bd126f070221dcfd5fa6317043
