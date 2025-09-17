@@ -21,6 +21,24 @@
     }
   },
   "signUpPage": {
-    "title": "注册"
+    "title": "注册",
+    "errors": {
+      "invalidEmail": "无效的电子邮件地址",
+      "passwordTooShort": "密码必须至少为6个字符",
+      "usernameTooShort": "用户名必须至少为2个字符",
+      "usernameTooLong": "用户名最多为50个字符",
+      "passwordsDontMatch": "密码不匹配"
+    },
+    "card": {
+      "title": "创建账户",
+      "description": "在下面输入您的信息以创建账户",
+      "username": "用户名",
+      "email": "电子邮件",
+      "password": "密码",
+      "confirmPassword": "确认密码",
+      "signUp": "注册",
+      "alreadyHaveAccount": "已经有账户了吗？",
+      "signIn": "登录"
+    }
   }
 }
