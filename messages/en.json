@@ -1,6 +1,7 @@
 {
   "HomePage": {
     "title": "Making Creative More Valuable",
-    "description": "Power the Future of the Creative Economy"
+    "description": "Power the Future of the Creative Economy",
+    "test": "This is a test message"
   }
 }
