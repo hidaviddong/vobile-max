@@ -9,6 +9,7 @@
 ## Prompt
 
 - 如果要增删改新的语言，需要：
+  - 在 `components/localeSelector.tsx`组件里，新增对应的`<SelectItem />` 和 `LOCALES` 参数
   - 在 `lib/i18n/routing.ts` 的 `locales: ["en", "zh-CN", "zh-HK"]` 进行添加
   - 在 `languine.json` 的 `"targets": ["zh-CN", "zh-HK"]` 字段中进行添加
 - 如果要增删改新的文案，需要：

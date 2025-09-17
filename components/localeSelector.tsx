@@ -11,7 +11,6 @@ import {
   SelectValue,
   SelectContent,
   SelectItem,
-  SelectLabel,
 } from "@/components/ui/select";
 
 const LOCALES = ["en", "zh-CN", "zh-HK"] as const;
