@@ -1,10 +1,12 @@
 import { auth } from "@/lib/auth";
-import { getTranslations } from "next-intl/server";
+import { getLocale, getTranslations } from "next-intl/server";
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
 import PageClient from "./page.client";
+import LocaleSelector from "@/components/localeSelector";
 
 export default async function Home() {
+  const locale = await getLocale();
   const t = await getTranslations("HomePage");
   const session = await auth.api.getSession({
     headers: await headers(),
