@@ -24,8 +24,13 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { z } from "zod/v3";
 import { useTranslations } from "next-intl";
+import { useMutation } from "@tanstack/react-query";
+import { authClient } from "@/lib/auth-client";
+import { toast } from "sonner";
+import { useRouter } from "next/navigation";
 
 export default function SignUpPageClient() {
+  const router = useRouter();
   const t = useTranslations("signUpPage");
   const signUpSchema = z
     .object({
@@ -62,8 +67,29 @@ export default function SignUpPageClient() {
     },
   });
 
+  const signUpMutation = useMutation({
+    mutationFn: async (values: SignUpFormValues) => {
+      return await authClient.signUp.email(
+        {
+          name: values.username,
+          email: values.email,
+          password: values.password,
+          callbackURL: "/",
+        },
+        {
+          onSuccess: () => {
+            router.push("/");
+          },
+          onError: (error) => {
+            toast.error(error.error.message);
+          },
+        }
+      );
+    },
+  });
+
   function onSignUpSubmit(values: SignUpFormValues) {
-    console.log(values);
+    signUpMutation.mutate(values);
   }
 
   return (
@@ -158,10 +184,10 @@ export default function SignUpPageClient() {
               <div className="flex flex-col gap-3">
                 <Button
                   type="submit"
-                  disabled={signUpForm.formState.isSubmitting}
+                  disabled={signUpMutation.isPending}
                   className="w-full"
                 >
-                  {signUpForm.formState.isSubmitting ? (
+                  {signUpMutation.isPending ? (
                     <Loader2Icon className="animate-spin" />
                   ) : (
                     t("card.signUp")

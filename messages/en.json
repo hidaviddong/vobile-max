@@ -1,4 +1,7 @@
 {
+  "Header": {
+    "signOut": "Sign Out"
+  },
   "HomePage": {
     "title": "Making Creative More Valuable",
     "description": "Power the Future of the Creative Economy"

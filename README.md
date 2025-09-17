@@ -4,6 +4,7 @@
 
 - [x] next-i18n
 - [x] languine
+- [x] better-auth
 
 ## Prompt
 
