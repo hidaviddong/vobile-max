@@ -3,3 +3,4 @@ files:
   messages/en.json:
     HomePage.title: bc100242d513fdc9cd5d5652a50965eb
     HomePage.description: 633e7916eec10c24fda54e8a596e18d4
+    HomePage.test: fafb00f5732ab283681e124bf8747ed1
