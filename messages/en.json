@@ -4,7 +4,19 @@
     "description": "Power the Future of the Creative Economy"
   },
   "signInPage": {
-    "title": "Sign In"
+    "errors": {
+      "invalidEmail": "Invalid email address",
+      "passwordTooShort": "Password must be at least 6 characters"
+    },
+    "card": {
+      "title": "Login to your account",
+      "description": "Enter your email below to login to your account",
+      "email": "Email",
+      "password": "Password",
+      "signIn": "Sign In",
+      "signUp": "Sign Up",
+      "dontHaveAccount": "Don't have an account?"
+    }
   },
   "signUpPage": {
     "title": "Sign Up"
