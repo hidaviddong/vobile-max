@@ -62,7 +62,7 @@ export default function SignInPageClient() {
           onError: (error) => {
             toast.error(error.error.message);
           },
-        }
+        },
       );
     },
   });

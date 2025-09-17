@@ -83,7 +83,7 @@ export default function SignUpPageClient() {
           onError: (error) => {
             toast.error(error.error.message);
           },
-        }
+        },
       );
     },
   });
