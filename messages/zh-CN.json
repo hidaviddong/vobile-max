@@ -40,5 +40,8 @@
       "alreadyHaveAccount": "已经有账户了吗？",
       "signIn": "登录"
     }
+  },
+  "Header": {
+    "signOut": "注销"
   }
 }
