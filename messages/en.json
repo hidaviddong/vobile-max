@@ -2,5 +2,11 @@
   "HomePage": {
     "title": "Making Creative More Valuable",
     "description": "Power the Future of the Creative Economy"
+  },
+  "signInPage": {
+    "title": "Sign In"
+  },
+  "signUpPage": {
+    "title": "Sign Up"
   }
 }
