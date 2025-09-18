@@ -1,8 +1,7 @@
 {
   "HomePage": {
     "title": "讓創意更具價值",
-    "description": "推動創意經濟的未來",
-    "test": "這是一條測試消息"
+    "description": "推動創意經濟的未來"
   },
   "signInPage": {
     "title": "登入",
