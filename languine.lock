@@ -2,6 +2,11 @@ version: 1
 files:
   messages/en.json:
     Header.signOut: 375e08625a2c38089b9e3a60f0e68325
+    Header.home: 8cf04a9734132302f96da8e113e80ce5
+    Header.creator: ef1d00d8a237a1bbe431e1091f5715fb
+    Header.asset: 26e9054be7f40079575582b7ad3f7363
+    Header.dataBridge: 19bb5752d665b64761e3a47b065346c7
+    Header.marketPlace: cc50be8368055ce40af5f926b8ba5eef
     selector.label: 4994a8ffeba4ac3140beb89e8d41f174
     selector.en: 78463a384a5aa4fad5fa73e2f506ecfc
     selector.zh-CN: d688a3a4d07d16ac647e799e472bff2e

@@ -42,7 +42,12 @@
     }
   },
   "Header": {
-    "signOut": "登出"
+    "signOut": "登出",
+    "home": "家",
+    "creator": "創作者",
+    "asset": "資產",
+    "dataBridge": "數據橋樑",
+    "marketPlace": "市場"
   },
   "selector": {
     "label": "語言",

@@ -42,7 +42,12 @@
     }
   },
   "Header": {
-    "signOut": "注销"
+    "signOut": "注销",
+    "home": "首页",
+    "creator": "创作者",
+    "asset": "资产",
+    "dataBridge": "数据桥",
+    "marketPlace": "市场"
   },
   "selector": {
     "label": "语言",
