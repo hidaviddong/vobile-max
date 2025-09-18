@@ -7,6 +7,7 @@ import "./globals.css";
 import QueryProviders from "./query-providers";
 import { Toaster } from "@/components/ui/sonner";
 import Header from "./header";
+import Footer from "./footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -41,12 +42,13 @@ export default async function RootLayout({ children, params }: Props) {
       >
         <NextIntlClientProvider>
           <QueryProviders>
-            <Header />
-            <div className="font-sans min-h-screen p-8 pb-20 sm:p-20">
-              <main className="flex flex-col gap-[32px] items-center justify-center min-h-[calc(100vh-8rem)]">
+            <div className="font-sans min-h-screen">
+              <Header />
+              <main className="flex flex-col gap-[32px] items-center justify-center min-h-[calc(100vh-4rem)] p-8 sm:p-20">
                 {children}
               </main>
             </div>
+            <Footer />
           </QueryProviders>
         </NextIntlClientProvider>
         <Toaster />

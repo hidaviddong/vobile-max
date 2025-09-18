@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import NavigationLink from "./nav-link";
 import { useIsMobile } from "@/hooks/use-mobile";
+import { MARKET_PLACE_URL } from "@/lib/constants";
 
 export default function NavMenu() {
   const t = useTranslations("Header");
@@ -20,7 +21,7 @@ export default function NavMenu() {
           <NavigationLink href="/creator">{t("creator")}</NavigationLink>
           <NavigationLink href="/asset">{t("asset")}</NavigationLink>
           <NavigationLink href="/databridge">{t("dataBridge")}</NavigationLink>
-          <NavigationLink href="https://www.crealabs.io/projects">
+          <NavigationLink href={MARKET_PLACE_URL}>
             {t("marketPlace")}
           </NavigationLink>
         </NavigationMenuItem>

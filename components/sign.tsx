@@ -36,7 +36,16 @@ export default function SignOut() {
     signOutMutation.mutate();
   };
 
-  if (!session) return null;
+  if (!session)
+    return (
+      <Button
+        variant="ghost"
+        className="relative h-8 w-8 rounded-full"
+        onClick={() => router.push("/signin")}
+      >
+        {t("signIn")}
+      </Button>
+    );
 
   const user = session.user;
   return (

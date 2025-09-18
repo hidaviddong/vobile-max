@@ -1,11 +1,18 @@
 {
   "Header": {
+    "signIn": "Sign In",
     "signOut": "Sign Out",
     "home": "Home",
     "creator": "Creator",
     "asset": "Asset",
     "dataBridge": "Data Bridge",
     "marketPlace": "Market Place"
+  },
+  "Footer": {
+    "description": "Powered by Vobile. MAX is powered by Emmy award-winning Vobile (SEHK: 3738). A worldwide leader in Software-as-a-Service for online video content protection and monetization. Its best-in-class SaaS platforms are widely used by movie studios, television networks, and record labels, enabling effective content protection for rightsholders and accelerating their revenue growth in the digital economy. Vobile has global operations across continents in North America, Asia, Australia and Europe. To learn more, visit ",
+    "privacyPolicy": "Privacy Policy",
+    "x": "X",
+    "linkedin": "LinkedIn"
   },
   "selector": {
     "label": "Language",

@@ -5,11 +5,13 @@ import {
   SheetContent,
   SheetTrigger,
   SheetTitle,
+  SheetClose,
 } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 import { useIsMobile } from "@/hooks/use-mobile";
 import SheetLink from "./sheet-link";
+import { MARKET_PLACE_URL } from "@/lib/constants";
 
 export default function SheetMenu() {
   const t = useTranslations("Header");
@@ -27,13 +29,21 @@ export default function SheetMenu() {
       <SheetContent side="left" className="w-80 top-16 h-[calc(100vh-4rem)]">
         <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
         <nav className="flex flex-col space-y-4 mt-6">
-          <SheetLink href="/">{t("home")}</SheetLink>
-          <SheetLink href="/creator">{t("creator")}</SheetLink>
-          <SheetLink href="/asset">{t("asset")}</SheetLink>
-          <SheetLink href="/databridge">{t("dataBridge")}</SheetLink>
-          <SheetLink href="https://www.crealabs.io/projects">
-            {t("marketPlace")}
-          </SheetLink>
+          <SheetClose asChild>
+            <SheetLink href="/">{t("home")}</SheetLink>
+          </SheetClose>
+          <SheetClose asChild>
+            <SheetLink href="/creator">{t("creator")}</SheetLink>
+          </SheetClose>
+          <SheetClose asChild>
+            <SheetLink href="/asset">{t("asset")}</SheetLink>
+          </SheetClose>
+          <SheetClose asChild>
+            <SheetLink href="/databridge">{t("dataBridge")}</SheetLink>
+          </SheetClose>
+          <SheetClose asChild>
+            <SheetLink href={MARKET_PLACE_URL}>{t("marketPlace")}</SheetLink>
+          </SheetClose>
         </nav>
       </SheetContent>
     </Sheet>
