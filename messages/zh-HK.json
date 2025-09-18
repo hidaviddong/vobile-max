@@ -46,12 +46,19 @@
     "creator": "創作者",
     "asset": "資產",
     "dataBridge": "數據橋樑",
-    "marketPlace": "市場"
+    "marketPlace": "市場",
+    "signIn": "登入"
   },
   "selector": {
     "label": "語言",
     "en": "英語",
     "zh-CN": "簡體中文",
     "zh-HK": "繁體中文 (香港)"
+  },
+  "Footer": {
+    "description": "由 Vobile 提供技術支持。MAX 由獲得艾美獎的 Vobile (SEHK: 3738) 提供技術支持。Vobile 是全球領先的在線視頻內容保護和貨幣化的軟件即服務（SaaS）提供商。其一流的 SaaS 平台被電影製作公司、電視網絡和唱片公司廣泛使用，能夠有效保護權利持有者的內容，並加速他們在數字經濟中的收入增長。Vobile 在北美、亞洲、澳大利亞和歐洲的各大洲均有全球業務運營。欲了解更多信息，請訪問 ",
+    "privacyPolicy": "私隱政策",
+    "x": "X",
+    "linkedin": "LinkedIn"
   }
 }
