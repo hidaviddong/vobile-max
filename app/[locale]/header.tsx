@@ -1,6 +1,7 @@
 import LocaleSelector from "@/components/locale-selector";
 import NavMenu from "@/components/nav-menu";
 import SheetMenu from "@/components/sheet-menu";
+import SignOut from "@/components/signout";
 import Image from "next/image";
 
 export default function Header() {
@@ -17,7 +18,8 @@ export default function Header() {
         <NavMenu />
       </div>
 
-      <div className="self-end flex">
+      <div className="self-end flex justify-center items-center space-x-4">
+        <SignOut />
         <LocaleSelector />
         <SheetMenu />
       </div>
