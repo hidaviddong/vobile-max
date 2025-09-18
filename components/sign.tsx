@@ -38,11 +38,7 @@ export default function SignOut() {
 
   if (!session)
     return (
-      <Button
-        variant="ghost"
-        className="relative h-8 w-8 rounded-full"
-        onClick={() => router.push("/signin")}
-      >
+      <Button variant="ghost" onClick={() => router.push("/signin")}>
         {t("signIn")}
       </Button>
     );
@@ -51,7 +47,10 @@ export default function SignOut() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" className="relative h-8 w-8 rounded-full">
+        <Button
+          variant="ghost"
+          className="relative h-8 w-8 rounded-full hover:bg-transparent"
+        >
           <Avatar className="h-8 w-8">
             <AvatarImage src={user.image || ""} alt={user.name} />
             <AvatarFallback>{user.name[0]}</AvatarFallback>
