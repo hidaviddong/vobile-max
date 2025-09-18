@@ -2,7 +2,7 @@
 import Logo from "@/components/logo";
 import SheetLink from "@/components/sheet-link";
 import { Button } from "@/components/ui/button";
-import { VOBILE_URL } from "@/lib/constants";
+import { VOBILE_LINKEDIN_URL, VOBILE_URL, VOBILE_X_URL } from "@/lib/constants";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 
@@ -25,8 +25,13 @@ export default function Footer() {
           <Button variant="link" asChild>
             <SheetLink href="/privacypolicy">{t("privacyPolicy")}</SheetLink>
           </Button>
-          <Button variant="link">{t("x")}</Button>
-          <Button variant="link">{t("linkedin")}</Button>
+          <Button variant="link" asChild>
+            <SheetLink href={VOBILE_X_URL}>{t("x")}</SheetLink>
+          </Button>
+
+          <Button variant="link" asChild>
+            <SheetLink href={VOBILE_LINKEDIN_URL}>{t("linkedin")}</SheetLink>
+          </Button>
         </div>
       </div>
     </footer>
