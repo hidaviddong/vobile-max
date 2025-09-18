@@ -7,6 +7,7 @@ import "./globals.css";
 import QueryProviders from "./query-providers";
 import { Toaster } from "@/components/ui/sonner";
 import LocaleSelector from "@/components/localeSelector";
+import Header from "./header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -40,9 +41,7 @@ export default async function RootLayout({ children, params }: Props) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <NextIntlClientProvider>
-          <header className="fixed inset-x-0 top-0 z-50 flex justify-end border-b bg-background/80 p-4 backdrop-blur">
-            <LocaleSelector currentLocale={locale} />
-          </header>
+          <Header />
           <QueryProviders>
             <main className="pt-16">{children}</main>
           </QueryProviders>
