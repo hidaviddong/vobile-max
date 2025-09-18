@@ -6,7 +6,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import QueryProviders from "./query-providers";
 import { Toaster } from "@/components/ui/sonner";
-import LocaleSelector from "@/components/localeSelector";
 import Header from "./header";
 
 const geistSans = Geist({
@@ -43,7 +42,11 @@ export default async function RootLayout({ children, params }: Props) {
         <NextIntlClientProvider>
           <Header />
           <QueryProviders>
-            <main className="pt-16">{children}</main>
+            <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
+              <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
+                {children}
+              </main>
+            </div>
           </QueryProviders>
         </NextIntlClientProvider>
         <Toaster />

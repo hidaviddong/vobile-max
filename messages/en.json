@@ -1,6 +1,11 @@
 {
   "Header": {
-    "signOut": "Sign Out"
+    "signOut": "Sign Out",
+    "home": "Home",
+    "creator": "Creator",
+    "asset": "Asset",
+    "dataBridge": "Data Bridge",
+    "marketPlace": "Market Place"
   },
   "selector": {
     "label": "Language",
