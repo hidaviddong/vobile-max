@@ -35,7 +35,7 @@ export default async function RootLayout({ children, params }: Props) {
   }
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className="dark">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
